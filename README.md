@@ -9,7 +9,7 @@ timeRange(Not Manadatory):- It specifies the duration of time slots. Default is 
 howMany(Not Manadatory):- It specifies the number of available slots to show. Default value is 2
 Example:- MeetingTimeSlots.exe c:\ participant_list.txt 30 2
 
-##FileFormat
+## FileFormat
 
 File should be in below format. File should start with number of participants in the file and then details for each participant
 
