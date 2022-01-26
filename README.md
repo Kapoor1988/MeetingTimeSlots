@@ -10,6 +10,7 @@ howMany(Not Manadatory):- It specifies the number of available slots to show. De
 Example:- MeetingTimeSlots.exe c:\ participant_list.txt 30 2
 
 ##FileFormat
+
 File should be in below format. File should start with number of participants in the file and then details for each participant
 
 2
