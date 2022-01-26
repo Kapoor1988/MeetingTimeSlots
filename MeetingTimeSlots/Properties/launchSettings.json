@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "MeetingTimeSlots": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\participant_list.txt 30 3"
+    }
+  }
+}

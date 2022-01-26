@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="6.0.0" />
+    <PackageReference Include="TimePeriodLibrary.NET" Version="2.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MeetingTimeSlots.Contracts\MeetingTimeSlot.Contracts.csproj" />
+    <ProjectReference Include="..\MeetingTimeSlots.Core\MeetingTimeSlot.Core.csproj" />
+  </ItemGroup>
+
+</Project>

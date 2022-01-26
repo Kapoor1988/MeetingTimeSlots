@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeetingTimeSlots", "MeetingTimeSlots\MeetingTimeSlots.csproj", "{2F3AED53-C17A-43B4-9CC1-1553E7E21F2D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeetingTimeSlot.Core", "MeetingTimeSlots.Core\MeetingTimeSlot.Core.csproj", "{4C261A85-F40D-4BA7-9099-B60551697474}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeetingTimeSlot.Contracts", "MeetingTimeSlots.Contracts\MeetingTimeSlot.Contracts.csproj", "{196F0405-11EC-4447-9CCD-D04DAD3771B3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeetingTimeSlot.Implementation", "MeetingTimeSlot.Implementation\MeetingTimeSlot.Implementation.csproj", "{C5FD91CA-F53B-42D9-9EE1-D82202C94455}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeetingTimeSlot.Test", "MeetingTimeSlot.Test\MeetingTimeSlot.Test.csproj", "{58D3A028-D277-4379-86D3-7FBFC382C730}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F3AED53-C17A-43B4-9CC1-1553E7E21F2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F3AED53-C17A-43B4-9CC1-1553E7E21F2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F3AED53-C17A-43B4-9CC1-1553E7E21F2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F3AED53-C17A-43B4-9CC1-1553E7E21F2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C261A85-F40D-4BA7-9099-B60551697474}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C261A85-F40D-4BA7-9099-B60551697474}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C261A85-F40D-4BA7-9099-B60551697474}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C261A85-F40D-4BA7-9099-B60551697474}.Release|Any CPU.Build.0 = Release|Any CPU
+		{196F0405-11EC-4447-9CCD-D04DAD3771B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{196F0405-11EC-4447-9CCD-D04DAD3771B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{196F0405-11EC-4447-9CCD-D04DAD3771B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{196F0405-11EC-4447-9CCD-D04DAD3771B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5FD91CA-F53B-42D9-9EE1-D82202C94455}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5FD91CA-F53B-42D9-9EE1-D82202C94455}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5FD91CA-F53B-42D9-9EE1-D82202C94455}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5FD91CA-F53B-42D9-9EE1-D82202C94455}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58D3A028-D277-4379-86D3-7FBFC382C730}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58D3A028-D277-4379-86D3-7FBFC382C730}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58D3A028-D277-4379-86D3-7FBFC382C730}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58D3A028-D277-4379-86D3-7FBFC382C730}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DD4C208A-15BA-46A6-8171-97451A8F7940}
+	EndGlobalSection
+EndGlobal
