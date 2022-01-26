@@ -12,7 +12,7 @@ Example:- MeetingTimeSlots.exe c:\ participant_list.txt 30 2
 ## FileFormat
 
 File should be in below format. File should start with number of participants in the file and then details for each participant
-
+```
 2
 A=(08:00)(16:00)
 day=1
@@ -28,7 +28,7 @@ day=1
 day=2
 (09:15)(09:30)
 (10:00)(11:00)
-
+```
 ## Suggestions
 
 -	Instead of file, we will store the booking slots and participants information in the database.
